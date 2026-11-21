@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recurrent-state-codec"
+version = "0.1.0"
+description = "A mixed-precision block codec for recurrent inference states"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.6"]
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Lishu Technologies"}]
+
+[project.urls]
+Repository = "https://github.com/Lishu-Technologies/recurrent-state-codec"
+Issues = "https://github.com/Lishu-Technologies/recurrent-state-codec/issues"
+
+[project.optional-dependencies]
+benchmark = ["tokenizers>=0.20", "numpy>=1.24"]
+
+[tool.setuptools]
+packages = ["recurrent_state_codec"]

@@ -1,0 +1,281 @@
+{
+  "model_sha256": "29a023467229397eb03fd31e088c08c9193b734249f0c07d51af03873162e723",
+  "tokenizer_sha256": "c24618a1b3e6a38167beff1c72cffd126c3a66254347304b50547d12c5f25624",
+  "python": "3.12.4",
+  "torch": "2.7.1+cu118",
+  "device": "NVIDIA GeForce RTX 3060",
+  "backend": "nvrtc",
+  "length": 8192,
+  "switch": 2048,
+  "documents": [
+    {
+      "document": "anthony-hope_the-prisoner-of-zenda",
+      "domain": "fiction",
+      "token_sha256": "b9eeb64bf01f7c2ec31a1ae8bd93dc29f9c3805e17b8f2a56725de836e1be19c",
+      "fp32": {
+        "nll": 2.97387597448675,
+        "hits": 3301
+      },
+      "fixed": {
+        "nll": 2.973063612541353,
+        "hits": 3303
+      },
+      "mixed": {
+        "nll": 2.9706837499767254,
+        "hits": 3305
+      }
+    },
+    {
+      "document": "charles-dickens_nicholas-nickleby",
+      "domain": "fiction",
+      "token_sha256": "8dae30e052b680b49389e1a4f9d84e7e0e9c7268a1828059e08827452982729c",
+      "fp32": {
+        "nll": 2.8606110703232153,
+        "hits": 3551
+      },
+      "fixed": {
+        "nll": 2.860367909729803,
+        "hits": 3541
+      },
+      "mixed": {
+        "nll": 2.857787965408977,
+        "hits": 3535
+      }
+    },
+    {
+      "document": "edith-wharton_the-age-of-innocence",
+      "domain": "fiction",
+      "token_sha256": "9f97d01498df5912db3d0e6f1d211295b3cd401a6b9bf624709f45b9549caca5",
+      "fp32": {
+        "nll": 3.171239025401003,
+        "hits": 3229
+      },
+      "fixed": {
+        "nll": 3.1705176224877203,
+        "hits": 3213
+      },
+      "mixed": {
+        "nll": 3.1696076754535394,
+        "hits": 3218
+      }
+    },
+    {
+      "document": "elizabeth-gaskell_north-and-south",
+      "domain": "fiction",
+      "token_sha256": "36210b49e31875bbf45f1d57341d56f20bffe1aad9a190a3f52e1e9f5365af6a",
+      "fp32": {
+        "nll": 3.2566153657193846,
+        "hits": 2991
+      },
+      "fixed": {
+        "nll": 3.261163462556942,
+        "hits": 2985
+      },
+      "mixed": {
+        "nll": 3.2567770281729667,
+        "hits": 2979
+      }
+    },
+    {
+      "document": "george-eliot_daniel-deronda",
+      "domain": "fiction",
+      "token_sha256": "625f323700bf7f74867f65d1512a7f6decd108e6e0303417385b8e38cd2c70db",
+      "fp32": {
+        "nll": 3.3538638281998514,
+        "hits": 2988
+      },
+      "fixed": {
+        "nll": 3.352628944131986,
+        "hits": 2994
+      },
+      "mixed": {
+        "nll": 3.350117119359351,
+        "hits": 2993
+      }
+    },
+    {
+      "document": "joseph-conrad_lord-jim",
+      "domain": "fiction",
+      "token_sha256": "a544522edd13834c22f94c5b39cd307984092b75e510d9f1611cb56e82a36536",
+      "fp32": {
+        "nll": 3.437007309928289,
+        "hits": 2853
+      },
+      "fixed": {
+        "nll": 3.4367943399928387,
+        "hits": 2847
+      },
+      "mixed": {
+        "nll": 3.4350984291193725,
+        "hits": 2841
+      }
+    },
+    {
+      "document": "rfc4271",
+      "domain": "technical",
+      "token_sha256": "cd302017c9d3d4b1ba0c2febb2808787168df17193b95fb1cffb13482c9c89ad",
+      "fp32": {
+        "nll": 1.4844175616055153,
+        "hits": 5559
+      },
+      "fixed": {
+        "nll": 1.487366204857533,
+        "hits": 5576
+      },
+      "mixed": {
+        "nll": 1.4432735094920992,
+        "hits": 5634
+      }
+    },
+    {
+      "document": "rfc4861",
+      "domain": "technical",
+      "token_sha256": "401342f7ffad5490582d2f2ab58e318235c048b30d557b4efbc0b212bb20d77a",
+      "fp32": {
+        "nll": 2.1170131523124938,
+        "hits": 4565
+      },
+      "fixed": {
+        "nll": 2.100138785499821,
+        "hits": 4592
+      },
+      "mixed": {
+        "nll": 2.093281665528666,
+        "hits": 4595
+      }
+    },
+    {
+      "document": "rfc5905",
+      "domain": "technical",
+      "token_sha256": "b18d51dcf0be8057676f56707f5df7fc7a7930205bb07c305c6890e72cc8944c",
+      "fp32": {
+        "nll": 2.37340213414733,
+        "hits": 4527
+      },
+      "fixed": {
+        "nll": 2.366067502806972,
+        "hits": 4546
+      },
+      "mixed": {
+        "nll": 2.360206315893552,
+        "hits": 4553
+      }
+    },
+    {
+      "document": "rfc6762",
+      "domain": "technical",
+      "token_sha256": "2baf36d7e4edf9e5adbf55323e6cf549211c73f1c2593fb0525523ea2a8d7a27",
+      "fp32": {
+        "nll": 2.398695809982772,
+        "hits": 4224
+      },
+      "fixed": {
+        "nll": 2.3963600949934807,
+        "hits": 4225
+      },
+      "mixed": {
+        "nll": 2.394094639743448,
+        "hits": 4224
+      }
+    },
+    {
+      "document": "rfc7252",
+      "domain": "technical",
+      "token_sha256": "8f290df5f2b4bbbaef78c60881f806f0ac8c779ef72bf2ad492b7575be27cfdc",
+      "fp32": {
+        "nll": 2.301919145667622,
+        "hits": 4276
+      },
+      "fixed": {
+        "nll": 2.29278680996845,
+        "hits": 4293
+      },
+      "mixed": {
+        "nll": 2.285540771856529,
+        "hits": 4306
+      }
+    },
+    {
+      "document": "rfc7950",
+      "domain": "technical",
+      "token_sha256": "c78217eb9ce8544ab2b1409f560bcba34102fc3a12bc0352426f30d40a704223",
+      "fp32": {
+        "nll": 1.576619670302628,
+        "hits": 5376
+      },
+      "fixed": {
+        "nll": 1.5602840073103,
+        "hits": 5410
+      },
+      "mixed": {
+        "nll": 1.5454010356531789,
+        "hits": 5427
+      }
+    }
+  ],
+  "summary": {
+    "fp32": {
+      "fiction": {
+        "nll": 3.175535429009749,
+        "hits": 18913
+      },
+      "technical": {
+        "nll": 2.042011245669727,
+        "hits": 28527
+      }
+    },
+    "fixed": {
+      "fiction": {
+        "nll": 3.1757559819067738,
+        "hits": 18883
+      },
+      "technical": {
+        "nll": 2.033833900906093,
+        "hits": 28642
+      }
+    },
+    "mixed": {
+      "fiction": {
+        "nll": 3.1733453279151553,
+        "hits": 18871
+      },
+      "technical": {
+        "nll": 2.0202996563612454,
+        "hits": 28739
+      }
+    }
+  },
+  "decode": {
+    "batch": 1,
+    "prompt": 32,
+    "switch": 16,
+    "steps": 8,
+    "wall_seconds": {
+      "fp32": [
+        0.06374770000002172,
+        0.06559400000060123,
+        0.06426449999980832
+      ],
+      "fixed": [
+        0.1221943000000465,
+        0.12543269999969198,
+        0.13723659999959636
+      ],
+      "mixed": [
+        0.12172860000009678,
+        0.12249470000006113,
+        0.12286210000002029
+      ]
+    },
+    "tokens_per_second": {
+      "fp32": 124.48552466795604,
+      "fixed": 63.77922184581569,
+      "mixed": 65.30894806057738
+    },
+    "ssm_payload_bytes": {
+      "fp32": 2359296,
+      "fixed": 847872,
+      "mixed": 847872
+    }
+  }
+}

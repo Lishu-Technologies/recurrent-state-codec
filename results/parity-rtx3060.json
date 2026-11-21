@@ -1,0 +1,28 @@
+{
+  "hf_vs_adapter_max_abs": 0.0010633468627929688,
+  "positions": 96,
+  "policies": {
+    "fp32": {
+      "scan_logit_rmse": 0.00024259838392026722,
+      "scan_top_matches": 96,
+      "chunk_logit_rmse": 7.451158307958394e-05,
+      "chunk_logprob_rmse": 1.846693703555502e-05,
+      "chunk_top_matches": 96
+    },
+    "fixed": {
+      "scan_logit_rmse": 0.0,
+      "scan_top_matches": 96,
+      "chunk_logit_rmse": 0.4362720251083374,
+      "chunk_logprob_rmse": 0.004546627402305603,
+      "chunk_top_matches": 94
+    },
+    "mixed": {
+      "scan_logit_rmse": 0.0,
+      "scan_top_matches": 96,
+      "chunk_logit_rmse": 0.26823556423187256,
+      "chunk_logprob_rmse": 0.0039166295900940895,
+      "chunk_top_matches": 96
+    }
+  },
+  "long_layer_max_abs": 0.0
+}
