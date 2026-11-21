@@ -2,6 +2,8 @@
 
 Store the state of a recurrent inference model in blocks of 16 values. Keep the model's update and readout functions. Choose how each state block is written back for the next token. The core depends only on PyTorch and works on CPU and CUDA.
 
+[Download v0.1.0](RELEASES.md) · [Share a reproduction](CONTRIBUTING.md)
+
 ## Public Mamba-130M results
 
 On an RTX 3060, the mixed layout used **828 KiB of persistent SSM state per request**, down from 2,304 KiB for FP32. At the same 828 KiB budget as the fixed residual layout, the mixed layout had lower next-token negative log likelihood (NLL) on all 12 documents. It gained 97 true next-token hits on technical text and lost 12 on fiction.
